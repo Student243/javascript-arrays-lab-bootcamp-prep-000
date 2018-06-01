@@ -27,3 +27,6 @@ function removeLastKitten(array) {
   kittens.pop(`Garfield`)
   return kittens
 }
+function removeFirstKitten(array) {
+  
+}
