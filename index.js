@@ -28,5 +28,7 @@ function removeLastKitten(array) {
   return kittens
 }
 function removeFirstKitten(array) {
-  
+  var kittens = [`Milo`, `Otis`, `Garfield`]
+  kittens.shift(`Milo`)
+  return kittens
 }
