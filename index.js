@@ -22,3 +22,6 @@ function prependKitten(array) {
   kittens.unshift(`Arnold`)
   return kittens
 }
+function removeLastKitten(array) {
+  var kittens = 
+}
