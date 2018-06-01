@@ -18,5 +18,7 @@ function appendKitten(array) {
   return kittens
 }
 function prependKitten(array) {
-  var kittens = 
+  var kittens = [`Milo`, `Otis`, `Garfield`,]
+  kittens.push(`Broom`)
+  return kittens
 }
