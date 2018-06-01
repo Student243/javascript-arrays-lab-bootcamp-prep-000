@@ -18,10 +18,12 @@ function appendKitten(array) {
   return kittens
 }
 function prependKitten(array) {
-  var kittens = [`Milo`, `Otis`, `Garfield`,]
+  var kittens = [`Milo`, `Otis`, `Garfield`]
   kittens.unshift(`Arnold`)
   return kittens
 }
 function removeLastKitten(array) {
-  var kittens = 
+  var kittens = [`Milo`, `Otis`, `Garfield`]
+  kittens.pop(`Garfield`)
+  return kittens
 }
